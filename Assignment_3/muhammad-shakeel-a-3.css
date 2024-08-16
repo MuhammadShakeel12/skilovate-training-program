@@ -1,0 +1,153 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #26396a;
+    font-size: large;
+    padding: 30px;
+}
+
+ul{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: #26396a;
+}
+
+li{
+    margin-top: 10px;
+}
+
+.img{
+    height: 180px;
+    width: 180px;
+}
+#apple{
+    height: auto;
+    width: 380px;
+}
+#android,#ui-ux,#DevOps,#mernstack,#react{
+    padding-left: 18%;
+}
+
+.image{
+    border: 2px solid #26396a;
+    margin: 10px;
+    justify-content: center;
+}
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px; /* Adjust the gap between the images */
+    border: #26396a;
+}
+
+.img-container img {
+    width: 250px;
+    height: auto;
+}
+
+.react{
+    width: 250px;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    color: #26396a;
+}
+th{
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; 
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tb-heading{
+    color: #26396a;
+}
+
+table ,h2{
+    color: whitesmoke;
+}
+
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+a{
+    color: #26396a;
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 480px) {
+    h1, h2, h3 {
+        font-size: 20px;
+    }
+
+    p, ul {
+        margin: 10px;
+    }
+
+    
+
+    #apple,#mernstack,#android,#ui-ux,#DevOps,#react{
+        margin-right: 18%;
+    }
+
+    .image{
+        height: 259px;
+        width: 390px;
+    }
+
+    table, th, td {
+        font-size: 12px;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .image{
+        height: 259px;
+        width: 390px;
+    }
+}
+
+    table{
+        width: 100%;
+    }
+
+    .img-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill , minmax(400px , 1fr));
+        margin-inline: auto;
+    }
