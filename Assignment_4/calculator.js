@@ -31,13 +31,10 @@ function calculator(num1,num2){
         result.push(division)
     }
     
-
-    
-
 }
 
 rl.question("Enter number 1:",(num1)=>{
-    
+
    rl.question("Enter number 2:",(num2) =>{
     num1 = parseInt(num1)
 
