@@ -1,0 +1,87 @@
+*{
+    background-color: lightblue;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #26396a;
+    font-size: large;
+    padding: 30px;
+}
+
+ul{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: whitesmoke;
+}
+
+li{
+    margin-top: 10px;
+}
+
+.img{
+    height: 180px;
+    width: 180px;
+}
+#apple{
+    height: auto;
+    width: 380px;
+}
+#android,#ui-ux,#DevOps,#mernstack,#react{
+    padding-left: 18%;
+}
+
+.image{
+    border: 2px solid #26396a;
+    margin: 10px;
+    justify-content: center;
+}
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px; /* Adjust the gap between the images */
+    border: #26396a;
+}
+
+.img-container img {
+    width: 250px;
+    height: auto;
+}
+
+.react{
+    width: 250px;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: whitesmoke;
+}
+
+table ,h2{
+    color: whitesmoke;
+}
+
+h3 {
+    font-family:Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+a{
+    color: blanchedalmond;
+}
