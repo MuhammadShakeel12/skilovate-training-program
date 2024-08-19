@@ -101,9 +101,12 @@ function delete_expense(){
         {
             if(value.id == expense_id)
             {
-                Expense_Detail.pop()
-                console.error("Expense deleted successfuly \n ")
-                Expense_handler()
+                if(!Expense_Detail.length == 0)
+                {
+                    Expense_Detail.pop()
+                    Expense_handler()
+                    console.error("Expense deleted successfuly \n ")
+                } 
             }
             else
             {
