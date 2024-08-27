@@ -1,0 +1,17 @@
+{
+  "name": "assignment_11",
+  "version": "1.0.0",
+  "description": "Practicing chalk module",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muhammad shakeel",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "nodemon": "^3.1.4"
+  }
+}
