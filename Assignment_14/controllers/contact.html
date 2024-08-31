@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Layout</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .footer-links h3{
+        margin-bottom: 10px;
+    }
+    body {
+        font-family: Arial, sans-serif;
+    }
+
+    .footer {
+        background-color: #8f959e;  /* Dark background for the footer */
+        color: #fff;  /* White text color */
+        padding: 20px;
+    }
+
+    .footer-content {
+        display: flex;  /* Use Flexbox to align content */
+        justify-content: space-between;  /* Space between the two sections */
+        align-items: center;  
+    }
+
+    .footer-text {
+        max-width: 30%;  /* Limit the width of the text block */
+    }
+    img{
+        height: 50px;
+        width: 100px;
+    }
+
+    .footer-text h2 {
+        margin-bottom: 20px;  /* Add some space below the heading */
+    }
+    #w_img img{
+        height: 20px;
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-links {
+        display: flex;  /* Display the links in a row */
+        flex-direction: column;
+        margin-bottom: 10px;  
+    }
+    input{
+        max-width: 60%;
+    }
+    .footer-links p {
+        margin-bottom: 10px;  /* Add space between links */
+        cursor: pointer;
+    }
+
+    .footer-links p:hover {
+        text-decoration: underline;  /* Add hover effect to the links */
+    }
+
+    </style>
+</head>
+<body>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                <img src="https://www.skilovate.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FSite_Logo_Transparent.079a0f80.png&w=1080&q=75" alt="skilovate">
+                <p>
+                    At Skilovate, we empower individuals through high-quality online training programs that lead to rewarding careers. Join us and take the first step towards your future.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h3>Company</h3>
+                <p>Home</p>
+                <p>About us</p>
+                <p>Training</p>
+                <p>Enroll now</p>
+            </div>
+            <div class="footer-links">
+                <h3>Contact us</h3>
+                <p id="w_img"><img src="https://img.icons8.com/?size=48&id=AltfLkFSP7XN&format=png"> +92 329 981 8504</p>
+                <p>Gulberg 2, 54660, Lahore</p>
+                <p>info@skilovate.com</p>
+            </div>
+            <div class="footer-links">
+                <h3>Subscribe</h3>
+                <p>Enter your email to get notified about<br> our new latest news</p>
+                <input type="email">
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
